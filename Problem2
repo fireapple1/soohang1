@@ -1,10 +1,9 @@
-
 #include <stdio.h>
 
 int main() {
     float height;
     printf("키 입력: ");
-    scanf("%d", &height);
+    scanf("%f", &height);
     printf("당신의 키는 %fcm입니다.\n", height);
     return 0;
 }
